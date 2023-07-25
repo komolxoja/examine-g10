@@ -1,1 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    color: rgb(31, 29, 29);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.container{
+    display: flex;
+    gap: 20px;
+}
+.todo{
+    width: 250px;
+    height: 550px;
+    background-color: rgb(73, 181, 244);
+}
+.progres{
+    width: 250px;
+    height: 550px;
+    background-color: aquamarine;
+}
+.done{
+    width: 250px;
+    height: 550px;
+    background-color: bisque;
+}
+.text{
+    width: 250px;
+    height: 100px;
+    background-color: black;
+    color: #fff;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.todo-texts{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.todo-text{
+    width: 200px;
+    height:100px;
+    background-color: rgb(123, 191, 146);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    font-size: 20px;
+}
+.progress{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.progres-text{
+    width: 200px;
+    height:100px;
+    background-color: rgb(123, 191, 146);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+}
+.donee{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.done-text{
+    width: 200px;
+    height:100px;
+    background-color: rgb(123, 191, 146);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+}
+button{
+    width: 200px;
+    height: 50px;
+    border: #fff;
+    font-size: 20px;
+    background-color: rgb(208, 162, 145);
+}
+
 
