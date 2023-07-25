@@ -16,17 +16,23 @@ body{
 }
 .todo{
     width: 250px;
-    height: 550px;
+    height: max-content;
+    display: grid;
+    place-items: center;
     background-color: rgb(73, 181, 244);
 }
 .progres{
     width: 250px;
-    height: 550px;
+    height: max-content;
+    display: grid;
+    place-items: center;
     background-color: aquamarine;
 }
 .done{
     width: 250px;
-    height: 550px;
+    height: max-content;
+    display: grid;
+    place-items: center;
     background-color: bisque;
 }
 .text{
